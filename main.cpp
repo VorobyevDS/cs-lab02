@@ -11,5 +11,11 @@ int main()
         << "A - B = " << a - b << '\n'
         << "A * B = " << a * b << '\n'
         << "A / B = " << a / b << '\n';
+    if (a<b){
+        cout<<"max="<<b;
+    }
+    else{
+        cout<<"max="<<a;
+    }
     return 0;
 }
