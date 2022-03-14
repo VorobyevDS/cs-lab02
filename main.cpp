@@ -17,5 +17,11 @@ int main()
     else{
         cout<<"max="<<a;
     }
+    if (a<b){
+        cout<<"min="<<a;
+    }
+    else{
+        cout<<"min="<<b;
+    }
     return 0;
 }
